@@ -166,7 +166,7 @@ const TabSection = () => {
             className="w-full text-primary md:w-1/2 dark:text-white"
           >
             <h2 className="text-2xl font-semibold mb-2">
-              Software Development Enginner
+              MAC Student at University of Windsor | Software Development Engineer
             </h2>
             <p className="text-base font-normal text-neutral-700 dark:text-neutral-300">
               * Full Stack Software Engineer with around 3 years of experience in developing and
@@ -192,7 +192,7 @@ const TabSection = () => {
             <ul className="list-inside list-disc text-neutral-700 dark:text-neutral-300">
               <li>
                 <a
-                  href="https://www.linkedin.com/learning/certificates/2dbad31ae77acecf0989b6da593b852156b44900c990e46f4a2009c29437c919"
+                  href="https://www.linkedin.com/learning/certificates/e0ba3a70ceeff03ff3e63f045bfad12650775dac1219b3d64f4d0514364ae198"
                   className="underline"
                   target="_blank"
                 >
