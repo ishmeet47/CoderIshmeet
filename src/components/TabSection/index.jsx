@@ -192,7 +192,7 @@ const TabSection = () => {
             <ul className="list-inside list-disc text-neutral-700 dark:text-neutral-300">
               <li>
                 <a
-                  href="https://www.linkedin.com/learning/certificates/"
+                  href="https://www.linkedin.com/learning/certificates/2dbad31ae77acecf0989b6da593b852156b44900c990e46f4a2009c29437c919"
                   className="underline"
                   target="_blank"
                 >
@@ -204,7 +204,7 @@ const TabSection = () => {
               </li>
               <li>
                 <a
-                  href="https://app.hubspot.com/academy/achievements/clt3bnwb/en/1/felix-macaspac/hubspot-cms-for-developers"
+                  href="https://www.linkedin.com/learning/certificates/5da3f38580e03773bb8d765f08462a65cb9f5b6518d02504a8a1c5d2b710f260"
                   className="underline"
                   target="_blank"
                 >
@@ -216,7 +216,7 @@ const TabSection = () => {
               </li>
               <li>
                 <a
-                  href="https://app.hubspot.com/academy/achievements/4nsfl59x/en/1/felix-macaspac/hubspot-cms-for-marketers"
+                  href="https://www.linkedin.com/learning/certificates/a8fa888232300bc04024dbb77c9e9061a933beb4a807ad141def5c2fac745d52"
                   className="underline"
                   target="_blank"
                 >
@@ -228,7 +228,7 @@ const TabSection = () => {
               </li>
               <li>
                 <a
-                  href="https://app.hubspot.com/academy/achievements/4nsfl59x/en/1/felix-macaspac/hubspot-cms-for-marketers"
+                  href="https://www.linkedin.com/learning/certificates/b456024719a7627ee9a0053162fedee23bb1b0a790de01440b4be7616f81d489"
                   className="underline"
                   target="_blank"
                 >
@@ -240,7 +240,7 @@ const TabSection = () => {
               </li>
               <li>
                 <a
-                  href="https://app.hubspot.com/academy/achievements/4nsfl59x/en/1/felix-macaspac/hubspot-cms-for-marketers"
+                  href="https://www.linkedin.com/learning/certificates/56e5dd726f2d12bf3d2c4ad4879be3bad38bdf7732bc1e78c962bbacd92e6eaf"
                   className="underline"
                   target="_blank"
                 >
@@ -250,6 +250,55 @@ const TabSection = () => {
                   <ExternalLinkIcon className="h-5 w-5" />
                 </span>
               </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/learning/certificates/102bc19a45f50e86ec0fb9a7ff8457e06646b6c355ae3a9724dd56345e61bdae"
+                  className="underline"
+                  target="_blank"
+                >
+                  Software Architecture From Developer to Architect
+                </a>
+                <span className="ml-1 inline-flex align-middle">
+                  <ExternalLinkIcon className="h-5 w-5" />
+                </span>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/learning/certificates/c195d1e16ac5c4c1d795bf9284143edfca7cc313927b3da01f53702e393df376?u=56973065"
+                  className="underline"
+                  target="_blank"
+                >
+                  Software Design From Requirements to Release
+                </a>
+                <span className="ml-1 inline-flex align-middle">
+                  <ExternalLinkIcon className="h-5 w-5" />
+                </span>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/learning/certificates/093bf6d454982bfe5706f7b582ed41be8e431820d3ad75776f4d94f143e447ac"
+                  className="underline"
+                  target="_blank"
+                >
+                  Software Testing Foundations Bug Writing and Management
+                </a>
+                <span className="ml-1 inline-flex align-middle">
+                  <ExternalLinkIcon className="h-5 w-5" />
+                </span>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/learning/certificates/ea0c1734bce3edbbec0b84bebbde02b43b5ed331a01a196196210bc0e3032fc9"
+                  className="underline"
+                  target="_blank"
+                >
+                  Unix Essential Training
+                </a>
+                <span className="ml-1 inline-flex align-middle">
+                  <ExternalLinkIcon className="h-5 w-5" />
+                </span>
+              </li>
+              
             </ul>
           </motion.div>
 
