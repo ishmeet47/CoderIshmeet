@@ -10,6 +10,83 @@ const TwoColumnCard = () => {
       viewport={{ once: true }}
       className="grid grid-cols-1 gap-10 items-center md:grid-cols-2"
     >
+
+    <motion.div
+        variants={{
+          offscreen: {
+            y: 300,
+          },
+          onscreen: {
+            y: 0,
+            // rotate: -10,
+            transition: {
+              type: "spring",
+              bounce: 0.4,
+              duration: 1.5,
+            },
+          },
+        }}
+        whileHover={{ scale: 1.02 }}
+        className="bg-gray-50 px-6 py-16 rounded-3xl h-full relative filter shadow-md md:px-10 dark:bg-primary-500"
+      >
+        <h6 className="text-2xl font-bold text-primary mb-4 dark:text-white">
+          <a
+            href="https://www.iccloyalty.com/"
+            target="_blank"
+            className="hover:underline"
+          >
+            SOTI, Mississauga, CANADA
+          </a>
+          <span className="mt-4 text-xs flex items-center justify-start uppercase text-neutral-600 dark:text-neutral-300">
+            <CalendarIcon className=" text-neutral-600 h-4 mr-2 dark:text-neutral-300" />
+            SEP, 2023 - APR, 2024
+          </span>
+          <span className="mt-2 text-xs flex items-center justify-start uppercase text-neutral-600 dark:text-neutral-300">
+            <BriefcaseIcon className="text-neutral-600 h-4 mr-2 dark:text-neutral-300" />
+            SOFTWARE DEVELOPER INTERN 
+          </span>
+        </h6>
+        <div className="relative mb-4">
+          <div
+            className="absolute inset-0 flex items-center"
+            aria-hidden="true"
+          >
+            <div className="w-full border-t border-gray-300" />
+          </div>
+          <div className="relative flex justify-center">
+            <span className="uppercase px-2 bg-gray-50 text-sm text-gray-500 dark:bg-primary-500">
+              duties & responsibilities
+            </span>
+          </div>
+        </div>
+        <ul className="text-base text-primary-400 list-inside list-disc dark:text-neutral-200">
+          <li>
+          Developed unit tests, injector registry tests using Junit and Mockito and executed on-device testing across Android devices
+          </li>
+          <li>
+          Engaged in code refactoring initiatives aimed at eliminating deprecated code
+          </li>
+          <li>
+          Participated in agile development processes, attending sprint meetings, and providing regular updates on project progress
+          </li>
+          <li>
+          Collaborated with senior developers to gain insights into software architecture and design principles 
+          </li>
+          <li>
+          Worked primarily on the SOTI MobiControl, maintaining their code and solving the MCMR issues reported by the customers
+          </li>
+          <li>
+          Refactored older modules by configuring the Guice bindings and migrated the code from Java to Kotlin
+          </li>
+          <li>
+          Used Robolectric unit testing framework to mock the Android framework and run tests without an actual device 
+          </li>
+          <li>
+          Written the step definitions and updated the feature files to write the automated test scenarios for the ART Automation Task          
+          </li>
+        </ul>
+      </motion.div>
+
       <motion.div
         variants={{
           offscreen: {
