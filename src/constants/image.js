@@ -25,6 +25,12 @@ import pubgLogo from "../assets/projects/Pubgbattlegrounds.png";
 import socket from "../assets/projects/socket.png";
 import frigg from "../assets/projects/frigg.png";
 import flight from "../assets/projects/flight.png";
+import survey from "../assets/projects/survey.jpg";
+import aiportfolio from "../assets/projects/aiportfolio.jpeg";
+import elearning from "../assets/projects/elearning.jpeg";
+import e2eiot from "../assets/projects/e2eiot.png";
+import crypto from "../assets/projects/crypto.png";
+
 import felixImage from "../assets/Ishmeet.png";
 import awsLogo from "../assets/logo/amazon-web-services-logo.svg";
 import androidLogo from "../assets/logo/android-logo.svg";
@@ -80,6 +86,11 @@ export default {
   pubgLogo,
   frigg,
   flight,
+  survey,
+  aiportfolio,
+  elearning,
+  e2eiot,
+  crypto,
   awsLogo,
   androidLogo,
   angularLogo,

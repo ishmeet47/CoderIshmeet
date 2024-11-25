@@ -308,6 +308,151 @@ const TwoColumnCard = () => {
         </ul>
       </motion.div>
 
+      <motion.div
+        variants={{
+          offscreen: {
+            y: 300,
+          },
+          onscreen: {
+            y: 0,
+            // rotate: -10,
+            transition: {
+              type: "spring",
+              bounce: 0.4,
+              duration: 1.5,
+            },
+          },
+        }}
+        whileHover={{ scale: 1.02 }}
+        className="bg-gray-50 px-6 py-16 rounded-3xl h-full relative filter shadow-md md:px-10 dark:bg-primary-500"
+      >
+        <h6 className="text-2xl font-bold text-primary mb-4 dark:text-white">
+          <a
+            href="https://www.iccloyalty.com/"
+            target="_blank"
+            className="hover:underline"
+          >
+            Fable, NewDelhi, INDIA
+          </a>
+          <span className="mt-4 text-xs flex items-center justify-start uppercase text-neutral-600 dark:text-neutral-300">
+            <CalendarIcon className=" text-neutral-600 h-4 mr-2 dark:text-neutral-300" />
+            Dec 2016 - Jan 2017
+          </span>
+          <span className="mt-2 text-xs flex items-center justify-start uppercase text-neutral-600 dark:text-neutral-300">
+            <BriefcaseIcon className="text-neutral-600 h-4 mr-2 dark:text-neutral-300" />
+            SOFTWARE DEVELOPER INTERN 
+          </span>
+        </h6>
+        <div className="relative mb-4">
+          <div
+            className="absolute inset-0 flex items-center"
+            aria-hidden="true"
+          >
+            <div className="w-full border-t border-gray-300" />
+          </div>
+          <div className="relative flex justify-center">
+            <span className="uppercase px-2 bg-gray-50 text-sm text-gray-500 dark:bg-primary-500">
+              duties & responsibilities
+            </span>
+          </div>
+        </div>
+        <ul className="text-base text-primary-400 list-inside list-disc dark:text-neutral-200">
+          <li>
+          Engineered the advertisement platform using AngularJS and Angular Material, optimizing UI performance and delivering
+          responsive, interactive interfaces with real-time data binding.
+          </li>
+          <li>
+          Developed a custom autocomplete component utilizing Angular services and RxJS, enhancing search functionality and
+          reducing user input errors by 30%, resulting in faster and more accurate user selections.
+          </li>
+          <li>
+          Built a dynamic dropdown suggestion system that utilized debouncing techniques and API-driven suggestions, reducing
+          server load by 25% and improving data input efficiency.
+          </li>
+          <li>
+          Refined the user interface using Google Material Design and optimized the rendering pipeline with virtual scrolling and lazy
+          loading, decreasing page load times by 40% and improving overall user retention. 
+          </li>
+          <li>
+          Integrated client-side caching and HTTP interceptors for optimized data fetching, reducing redundant API calls by 20% and
+          enhancing platform scalability
+          </li>
+          
+        </ul>
+      </motion.div>
+
+      <motion.div
+        variants={{
+          offscreen: {
+            y: 300,
+          },
+          onscreen: {
+            y: 0,
+            // rotate: -10,
+            transition: {
+              type: "spring",
+              bounce: 0.4,
+              duration: 1.5,
+            },
+          },
+        }}
+        whileHover={{ scale: 1.02 }}
+        className="bg-gray-50 px-6 py-16 rounded-3xl h-full relative filter shadow-md md:px-10 dark:bg-primary-500"
+      >
+        <h6 className="text-2xl font-bold text-primary mb-4 dark:text-white">
+          <a
+            href="https://www.iccloyalty.com/"
+            target="_blank"
+            className="hover:underline"
+          >
+            OceanFilms, NewDelhi, INDIA
+          </a>
+          <span className="mt-4 text-xs flex items-center justify-start uppercase text-neutral-600 dark:text-neutral-300">
+            <CalendarIcon className=" text-neutral-600 h-4 mr-2 dark:text-neutral-300" />
+            June 2016 - Jul 2017
+          </span>
+          <span className="mt-2 text-xs flex items-center justify-start uppercase text-neutral-600 dark:text-neutral-300">
+            <BriefcaseIcon className="text-neutral-600 h-4 mr-2 dark:text-neutral-300" />
+            SOFTWARE DEVELOPER INTERN 
+          </span>
+        </h6>
+        <div className="relative mb-4">
+          <div
+            className="absolute inset-0 flex items-center"
+            aria-hidden="true"
+          >
+            <div className="w-full border-t border-gray-300" />
+          </div>
+          <div className="relative flex justify-center">
+            <span className="uppercase px-2 bg-gray-50 text-sm text-gray-500 dark:bg-primary-500">
+              duties & responsibilities
+            </span>
+          </div>
+        </div>
+        <ul className="text-base text-primary-400 list-inside list-disc dark:text-neutral-200">
+          <li>
+          Designed, developed, and deployed the Ocean Films website, enhancing user experience and engagement by 30% with a
+          responsive, cross-browser compatible interface
+          </li>
+          <li>
+          Created a custom Content Management System (CMS) using React for the front-end and Node.js with Express for the
+          back-end, enabling dynamic content updates by the client without developer assistance.
+          </li>
+          <li>
+          Deployed the website using AWS with automated scaling & load balancing, ensuring 99% uptime, supporting user traffic
+          </li>
+          <li>
+          Utilized Docker for containerization, streamlining the deployment process and ensuring consistent environments across
+          development, testing, and production.
+          </li>
+          <li>
+          Enhanced security features by implementing JWT-based authentication for admin access to the CMS, protecting the platform
+          from unauthorized changes.
+          </li>
+          
+        </ul>
+      </motion.div>
+
     </motion.div>
   );
 };

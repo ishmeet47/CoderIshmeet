@@ -7,6 +7,61 @@ import { motion } from "framer-motion";
 const projects = [
   {
     id: 1,
+    image: images.survey,
+    heading: "Eazy Survey ",
+    description:
+      "<p>Developed a survey platform with automated user management and email notifications, increasing survey participation by 70% and reducing admin workload by 40%.</p>",
+    // websiteLink: "https://catify-app.netlify.app/",
+    githubLink: "https://github.com/ishmeet47/Eazy-Survey",
+    // techno
+    TypeScript : true, Angular13 : true, MS_SQL_Server: true, Nodejs : true, CSharp : true, DOTNET  : true
+  },
+  {
+    id: 2,
+    image: images.portfolio,
+    heading: "Personal Portfolio",
+    description:
+      "<p>Built a dynamic personal portfolio using Vite, React, and Tailwind CSS, featuring responsive design and seamless form submissions via EmailJS. Integrated Framer Motion for animations and utilized HeadlessUI and Heroicons for a modern interface, deployed on Netlify for optimized performance. </p>",
+    // websiteLink: "https://catify-app.netlify.app/",
+    githubLink: "https://github.com/ishmeet47/CoderIshmeet",
+    // techno
+    Vite : true, React : true, Tailwind_CSS : true, EmailJS : true, HeadlessUI : true, Heroicons : true, FramerMotion : true, Netlify : true
+  },
+  {
+    id: 3,
+    image: images.aiportfolio,
+    heading: "AI Portfolio Builder",
+    description:
+      "<p>Built an AI-powered web application for portfolio creation from resumes, automating the process to reduce creation time by 50% and supporting both manual data input and PDF upload. </p>",
+    // websiteLink: "https://catify-app.netlify.app/",
+    githubLink: "https://github.com/ishmeet47/AI-Powered-Portfolio-Builder",
+    // techno
+    JavaScript : true, ReactJS : true, Redux : true, MongoDB : true, NodeJs : true, Python : true, REST_APIs : true, Flask : true
+  },
+  {
+    id: 4,
+    image: images.elearning,
+    heading: "E-Learning Platform",
+    description:
+      "<p>Developed online learning platform, integrating LMS features, Stripe payments, automated emails, and tools for course, assignment, and grading management. </p>",
+    // websiteLink: "https://catify-app.netlify.app/",
+    githubLink: "https://github.com/ishmeet47/E-Learning-Platform",
+    // techno
+    Python : true, Django : true, SQLite : true
+    },
+  {
+    id: 5,
+    image: images.e2eiot,
+    heading: "E2E IoT Encryption System",
+    description:
+      "<p>Developed an IoT networking project focused on data security using Raspberry PI for sensor data collection. Implemented end-to-end encryption using Tiny Encryption Algorithm (TEA) for secure communication. </p>",
+    // websiteLink: "https://catify-app.netlify.app/",
+    githubLink: "https://github.com/ishmeet47/e2e-tea-encryption",
+    // techno
+    JavaScript : true, Python : true
+  },
+  {
+    id: 6,
     image: images.socket,
     heading: "Advanced Systems Programming – Socket Programming",
     description:
@@ -22,7 +77,7 @@ const projects = [
     c: true
   },
   {
-    id: 2,
+    id: 7,
     image: images.pubgLogo,
     heading: "Clustering and Analysis on Behavioral Data of PUBG Game ",
     description:
@@ -36,7 +91,7 @@ const projects = [
     python: true
   },
   {
-    id: 3,
+    id: 8,
     image: images.frigg,
     heading: "Smart Frigg Management System",
     description:
@@ -55,7 +110,7 @@ const projects = [
     typescript: true
   },
   {
-    id: 4,
+    id: 9,
     image: images.flight,
     heading: "Flight Price Analysis",
     description:
@@ -69,6 +124,19 @@ const projects = [
     java: true,
     selenium: true
   },
+  {
+    id: 10,
+    image: images.crypto,
+    heading: "Analyzing Cryptocurrency and E-voting using Blockchain",
+    description:
+      "<p>Implemented a decentralized e-voting system on Ethereum by leveraging smart contracts for transparent, immutable vote recording, and cryptographic methods for secure voter authentication.</p>",
+    // websiteLink: "https://catify-app.netlify.app/",
+    // githubLink: "https://github.com/ishmeet47/e2e-tea-encryption",
+    // techno
+    Ethereum : true, Solidity : true, Cryptography : true, Geth : true, MetaMask : true, Truffle :  true 
+  },
+  
+    
 ];
 
 const CardGrid = () => {
