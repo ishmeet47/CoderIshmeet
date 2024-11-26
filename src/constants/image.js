@@ -27,9 +27,10 @@ import frigg from "../assets/projects/frigg.png";
 import flight from "../assets/projects/flight.png";
 import survey from "../assets/projects/survey.jpg";
 import aiportfolio from "../assets/projects/aiportfolio.jpeg";
+import portfolio from "../assets/projects/portfolio.jpeg";
 import elearning from "../assets/projects/elearning.jpeg";
 import e2eiot from "../assets/projects/e2eiot.png";
-import crypto from "../assets/projects/crypto.png";
+import crypto from "../assets/projects/crypto.jpeg";
 
 import felixImage from "../assets/Ishmeet.png";
 import awsLogo from "../assets/logo/amazon-web-services-logo.svg";
@@ -88,6 +89,7 @@ export default {
   flight,
   survey,
   aiportfolio,
+  portfolio,
   elearning,
   e2eiot,
   crypto,
