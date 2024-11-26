@@ -166,10 +166,10 @@ const TabSection = () => {
             className="w-full text-primary md:w-1/2 dark:text-white"
           >
             <h2 className="text-2xl font-semibold mb-2">
-              MAC Student at University of Windsor | Software Development Engineer
+              Masters Graduate from University of Windsor | Software Development Engineer
             </h2>
             <p className="text-base font-normal text-neutral-700 dark:text-neutral-300">
-              * Full Stack Software Engineer with around 3 years of experience in developing and
+              * Full Stack Software Engineer with around 4 years of experience in developing and
               implementing web applications and providing technical support to accountants and relationship managers utilizing an array of
               technology and software programs to automate fundamental processes and provide easier tech solutions for 7 large
               commercial clients. 

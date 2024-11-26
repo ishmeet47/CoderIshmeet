@@ -537,6 +537,182 @@ const CardGrid = () => {
                     />
                   </div>
                 )}
+                {proj.MS_SQL_Server && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.MS_SQL_Server}
+                      alt="MS Sql Server logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                )}
+                {proj.CSharp && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.CSharp}
+                      alt="Csharp logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                )}
+                {proj.DOTNET && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.DOTNET}
+                      alt="DOTNET logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                )}
+                {proj.Vite && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.Vite}
+                      alt="Vite logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                )}
+                {proj.Tailwind_CSS && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.Tailwind_CSS}
+                      alt="Tailwind_CSS logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                )}
+                {proj.EmailJS && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.EmailJS}
+                      alt="EmailJS logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                )}
+                {proj.HeadlessUI && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.HeadlessUI}
+                      alt="HeadlessUI logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                )}
+                {proj.Heroicons && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.Heroicons}
+                      alt="Heroicons logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                )}
+                {proj.FramerMotion && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.FramerMotion}
+                      alt="FramerMotion logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                )}
+                 {proj.Netlify && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.Netlify}
+                      alt="Netlify logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                )}
+                {proj.Flask && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.Flask}
+                      alt="Flask logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                )}
+                {proj.Solidity && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.Solidity}
+                      alt="Solidity logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                )}
+                {proj.Cryptography && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.Cryptography}
+                      alt="Cryptography logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                )}
+                {proj.Geth && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.Geth}
+                      alt="Geth logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                )}
+                {proj.MetaMask && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.MetaMask}
+                      alt="MetaMask logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                )}
+                {proj.Truffle && (
+                  <div className="flex flex-col justify-center items-center gap-4 py-4 px-4 bg-gray-50 rounded-full filter shadow-md cursor-pointer hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300">
+                    <img
+                      className="h-8 object-contain dark:filter dark:invert"
+                      src={images.Truffle}
+                      alt="Truffle logo"
+                      width={32}
+                      height={32}
+                    />
+                  </div>
+                )}
                 
 
               
