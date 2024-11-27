@@ -36,7 +36,7 @@ const projects = [
     // websiteLink: "https://catify-app.netlify.app/",
     githubLink: "https://github.com/ishmeet47/AI-Powered-Portfolio-Builder",
     // techno
-    JavaScript : true, ReactJS : true, Redux : true, MongoDB : true, NodeJs : true, Python : true, REST_APIs : true, Flask : true
+    javascript : true, ReactJS : true, Redux : true, MongoDB : true, NodeJs : true, python : true, REST_APIs : true, Flask : true
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const projects = [
     // websiteLink: "https://catify-app.netlify.app/",
     githubLink: "https://github.com/ishmeet47/E-Learning-Platform",
     // techno
-    Python : true, Django : true, SQLite : true
+    python : true, Django : true, SQLite : true
     },
   {
     id: 5,
@@ -58,7 +58,7 @@ const projects = [
     // websiteLink: "https://catify-app.netlify.app/",
     githubLink: "https://github.com/ishmeet47/e2e-tea-encryption",
     // techno
-    JavaScript : true, Python : true
+    javascript : true, python : true
   },
   {
     id: 6,
