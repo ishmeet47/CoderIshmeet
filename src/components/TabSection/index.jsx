@@ -132,8 +132,7 @@ const logos = [
   {
     image: images.jdbcLogo,
     title: "JDBC",
-  }
-
+  },
 ];
 
 const TabSection = () => {
@@ -166,33 +165,40 @@ const TabSection = () => {
             className="w-full text-primary md:w-1/2 dark:text-white"
           >
             <h2 className="text-2xl font-semibold mb-2">
-              Masters Graduate from University of Windsor | Software Development Engineer
+              Masters Graduate from University of Windsor | Software Development
+              Engineer
             </h2>
             <p className="text-base font-normal text-neutral-700 dark:text-neutral-300">
-              * Full Stack Software Engineer with around 4 years of experience in developing and
-              implementing web applications and providing technical support to accountants and relationship managers utilizing an array of
-              technology and software programs to automate fundamental processes and provide easier tech solutions for 7 large
-              commercial clients. 
-              <br/>
-              * Experience in interaction with international clients in an Agile environment, along with writing Software design. 
-              <br/>
-              * Proficient in the use of Java, Angular JS, MongoDB, Groovy on Grails, SQL
-              and JavaScript. 
-              <br/>
-              * Skilled in utilizing modern front-end technologies such as React, Redux and AngularJS to deliver
-              exceptional user experiences. 
-              <br/>
-              * Certified Software Design Developer with a track record of successfully completing academic projects utilizing the
-              platform and responsible for bug fixing and maintaining current projects.
-              <br/> 
-              * Sharpened communication, teamwork, and problem-solving abilities through active collaboration with project teams, colleagues, and clients.
+              * Full Stack Software Engineer with around 4 years of experience
+              in developing and implementing web applications and providing
+              technical support to accountants and relationship managers
+              utilizing an array of technology and software programs to automate
+              fundamental processes and provide easier tech solutions for 7
+              large commercial clients.
+              <br />
+              * Experience in interaction with international clients in an Agile
+              environment, along with writing Software design.
+              <br />
+              * Proficient in the use of Java, Angular JS, MongoDB, Groovy on
+              Grails, SQL and JavaScript.
+              <br />
+              * Skilled in utilizing modern front-end technologies such as
+              React, Redux and AngularJS to deliver exceptional user
+              experiences.
+              <br />
+              * Certified Software Design Developer with a track record of
+              successfully completing academic projects utilizing the platform
+              and responsible for bug fixing and maintaining current projects.
+              <br />* Sharpened communication, teamwork, and problem-solving
+              abilities through active collaboration with project teams,
+              colleagues, and clients.
             </p>
             <br />
             <h3 className="font-semibold text-xl mb-2">Certifications 📝:</h3>
             <ul className="list-inside list-disc text-neutral-700 dark:text-neutral-300">
               <li>
                 <a
-                  href="https://www.linkedin.com/learning/certificates/e0ba3a70ceeff03ff3e63f045bfad12650775dac1219b3d64f4d0514364ae198"
+                  href="https://www.linkedin.com/learning/certificates/e0ba3a70ceeff03ff3e63f045bfad12650775dac1219b3d64f4d0514364ae198?trk=share_certificate"
                   className="underline"
                   target="_blank"
                 >
@@ -204,7 +210,7 @@ const TabSection = () => {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/learning/certificates/5da3f38580e03773bb8d765f08462a65cb9f5b6518d02504a8a1c5d2b710f260"
+                  href="https://www.linkedin.com/learning/certificates/37409836aee7830612174d8a9e09a9a32bd071ef544c52e74b1593b0b28507c2?trk=share_certificate"
                   className="underline"
                   target="_blank"
                 >
@@ -216,7 +222,7 @@ const TabSection = () => {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/learning/certificates/a8fa888232300bc04024dbb77c9e9061a933beb4a807ad141def5c2fac745d52"
+                  href="https://www.linkedin.com/learning/certificates/88e60aa2c6096409c5ddd385d4d922d7d484eaeeeeadcb4c3d648e272b953cdc?trk=share_certificate"
                   className="underline"
                   target="_blank"
                 >
@@ -228,7 +234,7 @@ const TabSection = () => {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/learning/certificates/b456024719a7627ee9a0053162fedee23bb1b0a790de01440b4be7616f81d489"
+                  href="https://www.linkedin.com/learning/certificates/737c18fa4c49bb339be3f90f7aaebce337631841d2e72f9cb18f3e1bb6afc924?trk=share_certificate"
                   className="underline"
                   target="_blank"
                 >
@@ -240,7 +246,7 @@ const TabSection = () => {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/learning/certificates/56e5dd726f2d12bf3d2c4ad4879be3bad38bdf7732bc1e78c962bbacd92e6eaf"
+                  href="https://www.linkedin.com/learning/certificates/78ca1c4ce7367a95ed824e82b8332d31dd6fa2045ba6af6156d22aa415091af5?trk=share_certificate"
                   className="underline"
                   target="_blank"
                 >
@@ -252,7 +258,7 @@ const TabSection = () => {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/learning/certificates/102bc19a45f50e86ec0fb9a7ff8457e06646b6c355ae3a9724dd56345e61bdae"
+                  href="https://www.linkedin.com/learning/certificates/1f796b0993e3a2691b1fc8c9f172b9983527fa6ae3c67dc9c62908e58ce069aa?trk=share_certificate"
                   className="underline"
                   target="_blank"
                 >
@@ -264,7 +270,7 @@ const TabSection = () => {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/learning/certificates/c195d1e16ac5c4c1d795bf9284143edfca7cc313927b3da01f53702e393df376?u=56973065"
+                  href="https://www.linkedin.com/learning/certificates/c195d1e16ac5c4c1d795bf9284143edfca7cc313927b3da01f53702e393df376?trk=share_certificate"
                   className="underline"
                   target="_blank"
                 >
@@ -276,7 +282,7 @@ const TabSection = () => {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/learning/certificates/093bf6d454982bfe5706f7b582ed41be8e431820d3ad75776f4d94f143e447ac"
+                  href="https://www.linkedin.com/learning/certificates/6cfe9c4a5089780798b140c2e4e177bbb8e62bde4683d1cc241c4130ac0bc107?trk=share_certificate"
                   className="underline"
                   target="_blank"
                 >
@@ -288,7 +294,7 @@ const TabSection = () => {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/learning/certificates/ea0c1734bce3edbbec0b84bebbde02b43b5ed331a01a196196210bc0e3032fc9"
+                  href="https://www.linkedin.com/learning/certificates/16e6340c53024350aad4a5b591d58d54505ce3c6828464c67d390c3855367949?trk=share_certificate"
                   className="underline"
                   target="_blank"
                 >
@@ -298,7 +304,6 @@ const TabSection = () => {
                   <ExternalLinkIcon className="h-5 w-5" />
                 </span>
               </li>
-              
             </ul>
           </motion.div>
 
