@@ -138,11 +138,11 @@ const TwoColumnCard = () => {
           </a>
           <span className="mt-4 text-xs flex items-center justify-start uppercase text-neutral-600 dark:text-neutral-300">
             <CalendarIcon className=" text-neutral-600 h-4 mr-2 dark:text-neutral-300" />
-            SEP, 2023 - APR, 2024
+            NOV, 2022 - APR, 2024
           </span>
           <span className="mt-2 text-xs flex items-center justify-start uppercase text-neutral-600 dark:text-neutral-300">
             <BriefcaseIcon className="text-neutral-600 h-4 mr-2 dark:text-neutral-300" />
-            SOFTWARE DEVELOPER INTERN
+            SOFTWARE DEVELOPER
           </span>
         </h6>
         <div className="relative mb-4">
@@ -388,7 +388,7 @@ const TwoColumnCard = () => {
           </a>
           <span className="mt-4 text-xs flex items-center justify-start uppercase text-neutral-600 dark:text-neutral-300">
             <CalendarIcon className=" text-neutral-600 h-4 mr-2 dark:text-neutral-300" />
-            MAY, 2018 - JULY, 2018
+            MAY, 2018 - APR, 2019
           </span>
           <span className="mt-2 text-xs flex items-center justify-start uppercase text-neutral-600 dark:text-neutral-300">
             <BriefcaseIcon className="text-neutral-600 h-4 mr-2 dark:text-neutral-300" />
@@ -541,7 +541,7 @@ const TwoColumnCard = () => {
           </a>
           <span className="mt-4 text-xs flex items-center justify-start uppercase text-neutral-600 dark:text-neutral-300">
             <CalendarIcon className=" text-neutral-600 h-4 mr-2 dark:text-neutral-300" />
-            June 2016 - Jul 2017
+            Jun 2016 - Jul 2016
           </span>
           <span className="mt-2 text-xs flex items-center justify-start uppercase text-neutral-600 dark:text-neutral-300">
             <BriefcaseIcon className="text-neutral-600 h-4 mr-2 dark:text-neutral-300" />
