@@ -30,11 +30,11 @@ const TwoColumnCard = () => {
       >
         <h6 className="text-2xl font-bold text-primary mb-4 dark:text-white">
           <a
-            href="https://www.centene.com/"
+            href="https://www.telushealth.com/"
             target="_blank"
             className="hover:underline"
           >
-            Centene Corporation, Remote, CANADA
+            Telus Health, Toronto Ontario, CANADA
           </a>
           <span className="mt-4 text-xs flex items-center justify-start uppercase text-neutral-600 dark:text-neutral-300">
             <CalendarIcon className=" text-neutral-600 h-4 mr-2 dark:text-neutral-300" />
