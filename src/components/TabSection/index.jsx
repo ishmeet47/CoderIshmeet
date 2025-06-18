@@ -169,8 +169,8 @@ const TabSection = () => {
               Engineer
             </h2>
             <p className="text-base font-normal text-neutral-700 dark:text-neutral-300">
-              * Full Stack Software Engineer with around 4 years of experience
-              in developing and implementing web applications and providing
+              * Full Stack Software Engineer with 6+ years of experience in
+              developing and implementing web applications and providing
               technical support to accountants and relationship managers
               utilizing an array of technology and software programs to automate
               fundamental processes and provide easier tech solutions for 7
